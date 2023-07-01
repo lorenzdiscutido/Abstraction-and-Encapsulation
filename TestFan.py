@@ -12,4 +12,6 @@ class TestFan:
         fan1.set_radius(10)
         fan2.set_radius(5)
         #Set color
+        fan1.set_color("Yellow")
+        fan2.get_color()
         #Set power
