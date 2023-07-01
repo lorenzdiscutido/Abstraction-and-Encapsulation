@@ -8,6 +8,9 @@ class TestFan:
     def show(self):
         print("Fan 1")
         print("Speed:", self.fan1.get_speed())
+        print("Radius:", self.fan1.get_radius())
+        print("Color:", self.fan1.get_color())
+        print("Power:", self.fan1.get_power())
 
 test_run = TestFan()
 test_run.show()

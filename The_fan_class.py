@@ -25,7 +25,7 @@ class Fan:
         return self.__radius
     
     def get_color(self):
-        return self.color
+        return self.__color
     #setters for the private data fields
     def set_speed(self, speed):
         self.__speed = speed
