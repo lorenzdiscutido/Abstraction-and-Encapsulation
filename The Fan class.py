@@ -14,5 +14,18 @@ class Fan:
         self.__radius = radius
     #Private string field for the color of the fan
         self.__color = color
-    #getters and setters for the private data fields
+    #getters for the private data fields
+    def get_speed(self):
+        return self.__speed
+    
+    def get_power(self):
+        return self.__power
+    
+    def get_radius(self):
+        return self.__radius
+    
+    def get_color(self):
+        return self.color
+    #setters for the private data fields
+
 
