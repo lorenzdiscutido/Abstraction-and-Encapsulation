@@ -15,3 +15,5 @@ class TestFan:
         fan1.set_color("Yellow")
         fan2.get_color()
         #Set power
+        fan1.set_power(False)
+        fan2.set_power(True)
