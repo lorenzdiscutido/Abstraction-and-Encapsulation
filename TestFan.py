@@ -9,5 +9,7 @@ class TestFan:
         fan1.set_speed(Fan.fast)
         fan2.set_speed(Fan.medium)
         #Set radius
+        fan1.set_radius(10)
+        fan2.set_radius(5)
         #Set color
         #Set power
