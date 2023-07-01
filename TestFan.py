@@ -7,7 +7,7 @@ class TestFan:
 
     def show(self):
         print("Fan 1")
-        print("Speed:", self.fan1.get_speed)
+        print("Speed:", self.fan1.get_speed())
 
 test_run = TestFan()
-test_run.show
+test_run.show()
