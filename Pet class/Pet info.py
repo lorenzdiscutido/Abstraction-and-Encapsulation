@@ -9,6 +9,9 @@ class pet_infos:
         pet.set_animal_type()
         pet.set_age()
 #Display the name, type, and age
-
+        pet.get_name()
+        pet.get_animal_type()
+        pet.get_age()
+        
 pet = pet_infos()
 pet.get_info()
