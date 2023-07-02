@@ -18,5 +18,11 @@ class Pets:
         age = int(input("Please enter your pet's age:"))
         self.__age = age
     #get name
+    def get_name(self):
+        return self.__name
     #get animal type
+    def get_animal_type(self):
+        return self.__animal_type
     #get age
+    def get_age(self):
+        return self.__age
