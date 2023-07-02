@@ -6,5 +6,9 @@ class Car:
         self.__make = make
         self.__speed = 0
 #function for year model
+    def year_model(self):
+        return self.__year_model
 #Function for make
+    def make(self):
+        return self.__make
 #function for speed
